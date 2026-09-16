@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(209, 174, 202);
+    margin: 0;
+}
+
+main{
+    width: 80%;
+    height: 100%;
+    margin:  0 auto;
+    background-color: rgb(226, 114, 206);
+}
+
+.foto{
+    width: 28%;
+    border-radius: 30%;
+    padding: 1em 0;
+    margin-left: 10em;
+}
+
+.datos{
+    display: flex;
+    
+}
+
+.datos,
+.experiencia,
+.estudios {
+    padding: 1em 10em;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+li{
+    font-size: 1.5em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(209, 174, 202);
+    
+}
+
+main{
+    width: 80%;
+    height: 100%;
+    margin:  0 auto;
+    padding: 1em 0;
+    background-color: rgb(226, 114, 206);
+}
+
+h1{
+    text-align: center;
+}
+
+.datos{
+    display: flex;
+    
+}
+
+.datos, 
+.tareas, 
+.tiempo-laboral{
+    padding:0 6em;
+}
+
+
+p{
+    font-size: 1.3em;
+}
+
+li{
+    font-size: 1.3em;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 10em;
+    background-color:rgb(209, 174, 202) ;
+}
+
+a{
+    text-decoration: none;
+}

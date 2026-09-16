@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(209, 174, 202);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 80%;
+    left: 10%;
+}
+nav{
+    background-color:  rgb(226, 114, 206);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    margin: 1em;
+}
+
+a{
+    text-decoration: none;
+}
+main{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.receta{
+    background-color:rgb(226, 114, 206) ;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    margin-bottom: 1.5em;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 28%;
+    margin: 1em auto;
+    border-radius: 1em;
+}
+
+h3{
+    font-size: 1.6em;
+}
+li{
+    font-size: 1.3em;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    background-color:  rgb(226, 114, 206);
+    padding: 1.5em;
+    left: 10%;
+}
